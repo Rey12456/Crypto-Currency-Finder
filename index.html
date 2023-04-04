@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Crypto API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container d-flex flex-column justify-content-center align-items-center vh-100">
+      <h1>Crypto Seeker</h1>
+      <form id="crypto-form" class="form-inline mt-3">
+        <div class="form-group mx-sm-3 mb-2">
+          <label for="crypto-name" class="sr-only">Crypto Name</label>
+          <input type="text" class="form-control" id="crypto-name" name="crypto-name" placeholder="Enter a crypto name (e.g. bitcoin)">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+      </form>
+      <div id="crypto-data" class="mt-3"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
